@@ -1,0 +1,32 @@
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 237);
+    align-items: center;
+    height: 70px;
+    padding: 0 50px;
+}
+
+.container-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#img-logo {
+    width: 130px;
+    margin: 60px;
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(108, 38, 172);
+    text-shadow: 0 0 20px black;
+}

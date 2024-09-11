@@ -1,16 +1,11 @@
-import { Navbar } from "./components/navbar/Navbar";
-import { Footer } from "./components/footer/Footer";
-import { Main } from "./components/main/Main";
+import Navbar from "./components/layouts/navbar/Navbar";
+import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer";
 
 function App() {
   return (
     <div>
       <Navbar />
-
-      <Main />
-
-      <Footer />
-
+      <ItemListContainer greeting = "Bienvenido" user = " señor usuario"/>
     </div>
   );
 }
