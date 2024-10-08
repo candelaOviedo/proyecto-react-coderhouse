@@ -1,0 +1,36 @@
+.detail-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    padding-top: 3%;
+    align-items: center;
+}
+
+
+.img-book {
+    width: 20vw;
+    margin-top: 0%;
+}
+
+.description {
+    padding: 10%;
+    padding-top: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
+
+.price {
+    padding-left: 10%;
+}
+
+.header-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-detail h3  {
+    
+    padding-left: 8%;
+    margin-bottom: 10px;
+}
