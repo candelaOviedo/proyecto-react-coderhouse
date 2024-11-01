@@ -11,6 +11,7 @@
   padding: 20px;
   max-width: 1200px;
   margin: auto;
+  margin-top: 2%;
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -101,6 +102,9 @@
 .selectQuantity button:hover {
   background-color: #e55a5a;
 }
+
+
+
 
 @media (min-width: 768px) {
   .info-book {
