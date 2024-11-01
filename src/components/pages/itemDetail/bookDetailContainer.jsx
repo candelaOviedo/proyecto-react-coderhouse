@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import BookDetail from "./bookDetail";
-import books from "../../../booksMock";
 import { useParams } from "react-router-dom";
 import { db } from "../../../firebaseConfig";
 import { doc, getDoc } from "firebase/firestore";

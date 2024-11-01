@@ -1,6 +1,5 @@
 import BookCard from "../../common/bookCard/BookCard";
 import "./itemListContainer.css";
-import books from "../../../booksMock";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { db } from "../../../firebaseConfig";
